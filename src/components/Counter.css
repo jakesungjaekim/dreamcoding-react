@@ -1,0 +1,34 @@
+.container {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+
+    border: 1px solid gold;
+    background: linear-gradient(to right,#e66465, #9198e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container span {
+    font-size: 5rem;
+}
+
+.container button {
+    width: 3rem;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    background-color:black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+    transition: all 0.4s;
+
+}
+
+.container button:hover, :active {
+    background-color: white;
+    color: black;
+}

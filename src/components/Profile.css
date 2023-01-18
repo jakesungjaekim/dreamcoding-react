@@ -1,0 +1,43 @@
+.profile {
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ebebeb;
+    box-shadow:  6px 13px 56px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 13px 56px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 13px 56px -14px rgba(0,0,0,0.75);
+
+    margin-bottom: 1rem;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.avatar {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.new {
+    width: 50px;
+    height: 20px;
+    padding: 3px;
+    background-color: aqua;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    letter-spacing: 0.2rem;
+
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
