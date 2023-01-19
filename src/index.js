@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+
 import AppJSX from './AppJSX';
 import AppProfile from './AppProfile';
 import AppCounter from './AppCounter';
+import AppXY from './05-01-mouse-tracking/AppXY';
+import AppMentor from './05-02-mentor/AppMentor';
+
+import AppMentors from './05-02-mentor/AppMentors';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppCounter />
+    <AppMentors />
   </React.StrictMode>
 );
 
